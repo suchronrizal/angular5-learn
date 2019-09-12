@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  goals: [];
+  arrComponent: Object = {};
+  addItem = () => {
+    this.arrComponent = this.goals.length;
+  };
 }
